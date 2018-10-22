@@ -54,7 +54,7 @@ let handler = {
 				'list': 'GET',
 				'remove': 'DELETE'
 			};
-			let paramI1Resources = ['domains', 'nodebalancers', 'regions'];
+			let paramI1Resources = ['domains', 'nodebalancers', 'regions','volumes'];
 			
 			for (let prefix in methodMap)
 			{
