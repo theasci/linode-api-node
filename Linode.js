@@ -162,7 +162,8 @@ function pluralify (str)
 		'setting': 'settings',
 		'client': 'clients',
 		'user': 'users',
-		'event': 'events'
+		'event': 'events',
+		'volume': 'volumes'
 	};
 	
 	if (Object.keys (map).includes (str))
